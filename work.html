@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NANA ASAI PORTFOLIO</title>
+    <meta name="description" content="浅井のポートフォリオサイトです">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'xmi5ask',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrap">
+            <h1 class="logo-nav"><a href="index.html"><img src="img/logo_nav.png" alt="ロゴ"></a></h1>
+            <nav class="pc-nav">
+                <ul>
+                    <li><a href="index.html">トップページ</a></li>
+                    <li><a href="about.html">私について</a></li>
+                    <li><a href="index.html#cando">できること</a></li>
+                    <li><a href="work.html">制作実績</a></li>
+                    <li><a href="index.html#cnt">お問い合わせ</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger"><span></span></div>
+            <nav class="sp-nav">
+                <ul>
+                    <li><a href="index.html">トップページ</a></li>
+                    <li><a href="about.html">私について</a></li>
+                    <li><a href="index.html#cando">できること</a></li>
+                    <li><a href="work.html">制作実績</a></li>
+                    <li><a href="index.html#cnt">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="orange-wrapper">
+        <section class="work-inner">
+            <div class="container">
+                <h2>制作実績</h2>
+                <div class="work-page-btn">
+                    <button class="button" id="all-btn">全て</button>
+                    <button class="button" id="web-btn">WEB</button>
+                    <button class="button" id="banner-btn">バナー</button>
+                </div>
+                <div class="all-screen">
+                    <div class="web">
+                        <div class="web-screen-work">
+                            <a href="work1.html"><img src="img/mockup_765-700_PF.jpg" alt="ポートフォリオサイト"></a>
+                            <p>2024.08</p>
+                            <p>ポートフォリオサイト</p>
+                        </div>
+                        <div class="web-screen-work">
+                            <a href="work2.html"><img src="img/mockup_765-700_LIFEHair.jpg"
+                                    alt="LIFE Hair Design（架空）"></a>
+                            <p>2024.05</p>
+                            <p>LIFE Hair Design（架空）</p>
+                        </div>
+                        <div class="web-screen-work">
+                            <a href="work3.html"><img src="img/mockup_765-700_DESIGNCAFE.jpg" alt="DESIGNCAFE"></a>
+                            <p>2024.05</p>
+                            <p>DESIGN CAFE（架空）</p>
+                        </div>
+                        <div class="web-screen-work">
+                            <a href="work4.html"><img src="img/mockup_765-700_Workers.jpg" alt="Workers"></a>
+                            <p>2024.05</p>
+                            <p>会員制コワーキングスペース<br>「WORKERS」（架空）</p>
+                        </div>
+                    </div>
+                    <div class="banner">
+                        <div class="banner-screen-work">
+                            <a href="work5.html"><img src="img/mockup_765-700_banner_hamburger1.jpg" alt="ハンバーガー1"></a>
+                            <p>2024.04</p>
+                            <p>DELUXE BURGER①（架空）</p>
+                        </div>
+                        <div class="banner-screen-work">
+                            <a href="work6.html"><img src="img/mockup_765-700_banner_hamburger2.jpg" alt="ハンバーガー2"></a>
+                            <p>2024.04</p>
+                            <p>DELUXE BURGER②（架空）</p>
+                        </div>
+                        <div class="banner-screen-work">
+                            <a href="work7.html"><img src="img/mockup_765-700_banner_travel.jpg" alt="旅"></a>
+                            <p>2024.04</p>
+                            <p>TRRRIP.（架空）</p>
+                        </div>
+                        <div class="banner-screen-work">
+                            <a href="work8.html"><img src="img/mockup_765-700_banner_mobile.jpg" alt="モバイル"></a>
+                            <p>2024.04</p>
+                            <p>SPRING SALE（架空）</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="toppage-btn-wrapper">
+                <a href="index.html" class="toppage-btn">トップページはこちら</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-text">©2024 portfolio NANA ASAI</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>

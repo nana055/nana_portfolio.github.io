@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NANA ASAI PORTFOLIO</title>
+    <meta name="description" content="浅井のポートフォリオサイトです">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'xmi5ask',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrap">
+            <h1 class="logo-nav"><a href="index.html"><img src="img/logo_nav.png" alt="ロゴ"></a></h1>
+            <nav class="pc-nav">
+                <ul>
+                    <li><a href="index.html">トップページ</a></li>
+                    <li><a href="about.html">私について</a></li>
+                    <li><a href="index.html#cando">できること</a></li>
+                    <li><a href="work.html">制作実績</a></li>
+                    <li><a href="index.html#cnt">お問い合わせ</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger"><span></span></div>
+            <nav class="sp-nav">
+                <ul>
+                    <li><a href="index.html">トップページ</a></li>
+                    <li><a href="about.html">私について</a></li>
+                    <li><a href="index.html#cando">できること</a></li>
+                    <li><a href="work.html">制作実績</a></li>
+                    <li><a href="index.html#cnt">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="orange-wrapper">
+        <section class="thanks">
+            <div class="container">
+                <h2>お問い合わせ<br class="br-thanks">ありがとうございます。</h2>
+                <p class="thanks-img"><img src="img/illust/assetto24.png" alt="ありがとう"></p>
+                <p>送信後の3日以内に返信いたします。<br>
+                    万が一連絡がない場合は恐れ入りますが、<br>
+                    再度お問い合わせください。
+                </p>
+                <div class="toppage-btn-wrapper">
+                    <a href="index.html" class="toppage-btn">トップページはこちら</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-text">©2024 portfolio NANA ASAI</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>

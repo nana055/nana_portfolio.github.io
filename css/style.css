@@ -156,7 +156,7 @@ picture {
 
 .fv-illust1 {
     position: absolute;
-    bottom: 15%;
+    bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
     width: 10%;
@@ -170,25 +170,25 @@ picture {
 
 .fv-illust3 {
     position: absolute;
-    bottom: 36%;
+    bottom: 39%;
     left: 5%;
 }
 
 .fv-illust4 {
     position: absolute;
-    bottom: 30%;
+    bottom: 33%;
     left: 23%;
 }
 
 .fv-illust5 {
     position: absolute;
-    bottom: 12%;
+    bottom: 15%;
     left: 15%;
 }
 
 .fv-illust6 {
     position: absolute;
-    bottom: 8%;
+    bottom: 13%;
     left: 32%;
 }
 
@@ -206,19 +206,19 @@ picture {
 
 .fv-illust9 {
     position: absolute;
-    bottom: 30%;
+    bottom: 33%;
     right: 25%;
 }
 
 .fv-illust10 {
     position: absolute;
-    bottom: 13%;
+    bottom: 16%;
     right: 11%;
 }
 
 .fv-illust11 {
     position: absolute;
-    bottom: 8%;
+    bottom: 11%;
     right: 32%;
 }
 

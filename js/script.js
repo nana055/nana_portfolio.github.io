@@ -74,4 +74,16 @@ $(function () {
         openImgTarget.fadeIn();
         openImgBtn.hide();
     });
-    closeImgBtn.o
+    closeImgBtn.on('click', function () {
+        openImgBtn.show();
+        openImgTarget.hide();
+    });
+});
+
+
+/* html */
+setTimeout(function () {
+    if (document.getElementsByTagName("html")[0].classList.contains('wf-active') != true) {
+        document.getElementsByTagName("html")[0].classList.add('loading-delay');
+    }
+}, 3000);

@@ -156,7 +156,7 @@ picture {
 
 .fv-illust1 {
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
     width: 10%;
@@ -170,25 +170,25 @@ picture {
 
 .fv-illust3 {
     position: absolute;
-    bottom: 39%;
+    bottom: 36%;
     left: 5%;
 }
 
 .fv-illust4 {
     position: absolute;
-    bottom: 33%;
+    bottom: 30%;
     left: 23%;
 }
 
 .fv-illust5 {
     position: absolute;
-    bottom: 15%;
+    bottom: 12%;
     left: 15%;
 }
 
 .fv-illust6 {
     position: absolute;
-    bottom: 13%;
+    bottom: 8%;
     left: 32%;
 }
 
@@ -206,19 +206,19 @@ picture {
 
 .fv-illust9 {
     position: absolute;
-    bottom: 33%;
+    bottom: 30%;
     right: 25%;
 }
 
 .fv-illust10 {
     position: absolute;
-    bottom: 16%;
+    bottom: 13%;
     right: 11%;
 }
 
 .fv-illust11 {
     position: absolute;
-    bottom: 11%;
+    bottom: 8%;
     right: 32%;
 }
 
@@ -709,6 +709,17 @@ footer {
     margin-bottom: 80px;
 }
 
+.other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.other-screen-work {
+    width: 48%;
+    margin-bottom: 80px;
+}
+
 .button {
     display: inline-block;
     padding: 10px;
@@ -753,6 +764,16 @@ footer {
 }
 
 #banner-btn.active {
+    color: #fff;
+    background-color: #E7A74E;
+}
+
+#other-btn {
+    color: #4f260b;
+    background-color: #F9EDE0;
+}
+
+#other-btn.active {
     color: #fff;
     background-color: #E7A74E;
 }

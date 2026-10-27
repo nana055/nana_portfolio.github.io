@@ -29,7 +29,7 @@ $('#all-btn').click(function () {
     $('.other').show();
 });
 $('#web-btn').click(function () {
-    $('#web-btn,#banner-btn,#other-btn,#all-btn').removeClass('active');
+    $('#web-btn,#banner-btn#other-btn,#all-btn').removeClass('active');
     $(this).addClass('active');
     $('.web').show();
     $('.banner').hide();
